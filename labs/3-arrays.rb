@@ -15,3 +15,14 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["milk", "eggs", "bacon", "beer"]
+
+friend_list = ["beer", "cookies", "apples"]
+
+combined_list = my_list + friend_list
+sorted_list = combined_list.sort
+unique_sorted_list = sorted_list.uniq
+
+# puts (brians_list + bens_list).sort.uniq
+puts "buy #{unique_sorted_list}"
